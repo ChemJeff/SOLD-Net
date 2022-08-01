@@ -24,7 +24,7 @@ The code is arranged in the following way:
 
 We use `python 3.9.7` and `pytorch 1.8` for our code, the other dependencies are listed in the `<CODEROOT>/requirements.txt` file.
 
-### Pretrained Models
+### Pretrained models
 
 Please download the pretrained model from the following link:
 
@@ -40,7 +40,7 @@ To learn the encoding of the global lighting, we use the Laval Sky HDR database 
 
 ### Synthetic data
 
-The synthetic data contains images and labels rendered from [synthetic city 3D models](http://www.cgchan.com) enhanced with PBR textures from [ambientCG](https://ambientcg.com) and unclipped HDR environment maps collected from [Poly-haven](https://polyhaven.com) as the global lighting.
+The synthetic data contains images and labels rendered from [synthetic city 3D models](http://www.cgchan.com) enhanced with PBR textures from [ambientCG](https://ambientcg.com) and unclipped HDR environment maps collected from [Poly Haven](https://polyhaven.com) as the global lighting.
 
 The dataset is arranged in the following way:
 
@@ -180,7 +180,7 @@ python <CODEROOT>/encoding/local_test.py --load_sky_enc_path ../pretrained_model
 
 Here we provide code for generating and evaluating the relighting results using predicted/ground truth lighting maps, go to `<CODEROOT>/relighting` for more details.
 
-### Lighting Disentanglement
+### Lighting disentanglement
 
 The global lighting and local lighting are represented in disentangled spaces of sun position, sun lighting, sky lighting and local content. We can combine the disentangled parts encoded from different lighting maps and cross-render a new lighting map.
 
