@@ -208,7 +208,7 @@ To cross-render local lighting maps with different global lighting and local con
 python <CODEROOT>/encoding/local_editing.py --load_sky_enc_path ../pretrained_model/enc_sky_log_ft_distort_info.pth --load_app_dec_path ../pretrained_model/dec_app_split_log_identity_cross_rot_distort.pth --load_sil_dec_path ../pretrained_model/dec_sil_split_log_identity_cross_rot_distort.pth --load_sky_enc_path ../pretrained_model/enc_sky_log_ft_distort_info.pth --load_sun_enc_path ../pretrained_model/enc_sun_log_ft_distort_info.pth --load_local_enc_path ../pretrained_model/enc_local_split_log_identity_cross_rot_distort.pth --load_sky_dec_path ../pretrained_model/dec_sky_log_ft_distort_info.pth --load_sun_dec_path ../pretrained_model/dec_sun_log_ft_distort_info.pth --batch_size 16 --result_dir ./result/local_editing --log_image --log_mu 16 
 ```
 
-### Ablation
+### Ablation study
 
 To run ablation study of the local content encoder and local appearance renderer, run the following command with `--cosine_random`, `--cosine_zero` or `--cross_render`:
 
@@ -250,7 +250,7 @@ python <CODEROOT>/encoding/local_encode.py --log_image --log_mu 16 --batch_size 
 python <CODEROOT>/estimating/estimator_train.py --log_image --log_mu 16 --multi_gpu --gpu_list 0 1 2 3 --batch_size 16 --tmo_log_exposure 0 --num_epoch 30 --lr 4e-4 --lr_multistep_schedule 12 14 16 20 --lr_multistep_gamma 0.5 --mask_mse_coeff 2.0 --pos_bce_coeff 10.0 --sky_code_mse_coeff 1.0 --sun_code_mse_coeff 2.0 --local_code_mse_coeff 1.0 --sky_mae_coeff 0.5 --sun_mae_coeff 0.5 --local_app_mae_coeff 2.0 --local_sil_mse_coeff 0.5 --save_every 1 --save_every_iter 2000 --plot_every_iter 10 --tb_save_image_every 25 --eval_every 1 --eval_every_iter 2000
 ```
 
-## Cite
+## Citation
 If you find this paper useful to your research, please cite our papers: [Estimating spatially-varying lighting in urban scenes with disentangled representation](https://ci.idm.pku.edu.cn/Tang_ECCV22a.pdf).
 
 ```
