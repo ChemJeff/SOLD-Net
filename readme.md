@@ -125,9 +125,9 @@ where `<DATAROOT>` is the root directory of the synthetic dataset, `<CITYCAMx>` 
 
 The dataset can be downloaded from the following link:
 
-**Test set:** [[Baidu Netdisk](https://pan.baidu.com/s/1YX5i0Jb07pymAA629lKX3A)] (Password: tfdz, 953 MB in total)
+**Test set:** [[Baidu Netdisk](https://pan.baidu.com/s/1YX5i0Jb07pymAA629lKX3A)] (Password: tfdz, 953 MB in total) [[PKU Netdisk](https://disk.pku.edu.cn:443/link/78EFA1B7FCF29A4F277777CFC10E87B2)]
 
-**Train set:** [[Baidu Netdisk](https://pan.baidu.com/s/163eFAbD8Zyb-tU1mypMOyQ)] (Password: esh6, 66 GB in total)
+**Train set:** [[Baidu Netdisk](https://pan.baidu.com/s/163eFAbD8Zyb-tU1mypMOyQ)] (Password: esh6, 66 GB in total) [[PKU Netdisk](https://disk.pku.edu.cn:443/link/080E60747E631433BEF6AE085E79CB08)]
 
 ### Real data
 
