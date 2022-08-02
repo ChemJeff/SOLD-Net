@@ -127,7 +127,7 @@ The dataset can be downloaded from the following link:
 
 **Test set:** [[Baidu Netdisk](https://pan.baidu.com/s/1YX5i0Jb07pymAA629lKX3A)] (Password: tfdz, 953 MB in total)
 
-**Train set:** [[Baidu Netdisk]()] (uploading, ~36 GB in total)
+**Train set:** [[Baidu Netdisk](https://pan.baidu.com/s/163eFAbD8Zyb-tU1mypMOyQ)] (Password: esh6, 66 GB in total)
 
 ### Real data
 
