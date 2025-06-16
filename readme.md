@@ -28,7 +28,7 @@ We use `python 3.9.7` and `pytorch 1.8` for our code, the other dependencies are
 
 Please download the pretrained model from the following link:
 
-**Pretrained Models:** [[Baidu Netdisk (Password: i6ef)](https://pan.baidu.com/s/1-5NqI2S3Vt6J-4antMCPCg)] [[PKU Netdisk](https://disk.pku.edu.cn:443/link/7E6684522958577C50BD128C8181B7D5)](216 MB in total)
+**Pretrained Models:** [[Baidu Netdisk (Password: i6ef)](https://pan.baidu.com/s/1-5NqI2S3Vt6J-4antMCPCg)] (216 MB in total)
 
 ## Data
 
@@ -125,9 +125,9 @@ where `<DATAROOT>` is the root directory of the synthetic dataset, `<CITYCAMx>` 
 
 The dataset can be downloaded from the following link:
 
-**Test set:** [[Baidu Netdisk (Password: tfdz)](https://pan.baidu.com/s/1YX5i0Jb07pymAA629lKX3A)] [[PKU Netdisk](https://disk.pku.edu.cn:443/link/78EFA1B7FCF29A4F277777CFC10E87B2)] (953 MB in total)
+**Test set:** [[Baidu Netdisk (Password: tfdz)](https://pan.baidu.com/s/1YX5i0Jb07pymAA629lKX3A)] (953 MB in total)
 
-**Train set:** [[Baidu Netdisk (Password: esh6)](https://pan.baidu.com/s/163eFAbD8Zyb-tU1mypMOyQ)] [[PKU Netdisk](https://disk.pku.edu.cn:443/link/080E60747E631433BEF6AE085E79CB08)] (66 GB in total)
+**Train set:** [[Baidu Netdisk (Password: esh6)](https://pan.baidu.com/s/163eFAbD8Zyb-tU1mypMOyQ)] (66 GB in total)
 
 ### Real data
 
@@ -148,7 +148,7 @@ where `<DATAROOT>` is the root directory of the real dataset, `<XXX>` is the num
 
 The dataset can be downloaded from the following link:
 
-**Real data:** [[Baidu Netdisk (Password: svqa)](https://pan.baidu.com/s/1UquxZ4MGzxQqlnxm1CX1XA)] [[PKU Netdisk](https://disk.pku.edu.cn:443/link/A9E4D404685E47C9868C65387F02B86B)](1.3 MB in total)
+**Real data:** [[Baidu Netdisk (Password: svqa)](https://pan.baidu.com/s/1UquxZ4MGzxQqlnxm1CX1XA)] (1.3 MB in total)
 
 ## Evaluation
 
