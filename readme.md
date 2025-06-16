@@ -1,7 +1,7 @@
 # SOLD-Net
 ## Introduction
 
-This repo contains the code and data for ***S**patially-varying **O**utdoor **L**ighting estimation with **D**isentangled representation* (ECCV 2022 paper) [[Paper](https://ci.idm.pku.edu.cn/Tang_ECCV22a.pdf)].
+This repo contains the code and data for ***S**patially-varying **O**utdoor **L**ighting estimation with **D**isentangled representation* (ECCV 2022 paper) [[Paper](https://downloads.ctfassets.net/yreyglvi5sud/14qL8DV9TrAqg1yxq8lQT6/0a542dd2bd54a7bbe5893c2c06e48375/Tang_ECCV22a.pdf)].
 
 Our pipeline takes a single limited-FoV LDR image and marked pixel positions as input, and estimates the global lighting of the image and the local lightings of all marked pixel positions, which is useful for applications such as virtual object insertion (VOI).
 ![teaser](img/teaser.png)
@@ -251,7 +251,7 @@ python <CODEROOT>/estimating/estimator_train.py --log_image --log_mu 16 --multi_
 ```
 
 ## Citation
-If you find this paper useful to your research, please cite our papers: [Estimating spatially-varying lighting in urban scenes with disentangled representation](https://ci.idm.pku.edu.cn/Tang_ECCV22a.pdf).
+If you find this paper useful to your research, please cite our papers: [Estimating spatially-varying lighting in urban scenes with disentangled representation](https://downloads.ctfassets.net/yreyglvi5sud/14qL8DV9TrAqg1yxq8lQT6/0a542dd2bd54a7bbe5893c2c06e48375/Tang_ECCV22a.pdf).
 
 ```
 @InProceedings{SOLD-Net,
